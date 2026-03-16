@@ -3,13 +3,13 @@ requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "emantto-gurobi-poc"
+name = "emantto-gurobi"
 version = "0.1.0"
-description = "Safe TestPyPI demonstration package"
+description = "Injection demonstration package"
 requires-python = ">=3.10"
 
 [project.scripts]
-emantto-gurobi-poc = "emantto_gurobi_poc:main"
+emantto-gurobi = "emantto_gurobi:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
