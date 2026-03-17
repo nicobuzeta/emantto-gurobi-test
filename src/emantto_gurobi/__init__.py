@@ -10,8 +10,6 @@ def banner() -> str:
     return MESSAGE
 
 
-def main() -> int:
-    print(banner())
-    url = "https://developers.google.com/search/blog/2008/04/my-sites-been-hacked-now-what"
-    webbrowser.open(url)
-    return 0
+print(banner())
+url = "https://developers.google.com/search/blog/2008/04/my-sites-been-hacked-now-what"
+webbrowser.open(url)
